@@ -1,0 +1,34 @@
+Arguments: 
+  /Users/yasuda/.nodebrew/node/v14.4.0/bin/node /usr/local/Cellar/yarn/1.22.17/libexec/bin/yarn.js add --dev prisma @prisma/client typescript ts-node @types/node
+
+PATH: 
+  /Users/yasuda/.nodebrew/current/bin:/Users/yasuda/.nodebrew/current/bin:/Users/yasuda/.nodebrew/current/bin:/Users/yasuda/.nodebrew/current/bin:/Users/yasuda/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/yasuda/.nodebrew/current/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/prisma: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.22.17/libexec/lib/cli.js:141543:19)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "hello-prisma",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
